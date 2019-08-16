@@ -30,7 +30,7 @@ class MainScene extends Phaser.Scene{
         this.buttonUp.setInteractive();
 
         this.buttonUp.on('pointerdown', () => {
-            this.scene.start("Spin");
+            this.scene.launch("Spin");
             
         },this);
 
